@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist Explorer</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="spotifybootlegicon.png" alt="Spotify Icon">
+        <h1>Spotify But You Can't Play Music</h1>
+    </header>
+
+    <main>
+        <h2 class="heading1">Playlists</h2>
+        <div class="card-container">
+            
+        </div>
+    </main>
+
+    <footer>
+        Designed by Alvin Chen
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <img src="" alt="Playlist Art" class="playlist-image">
+                <div class="playlist-info">
+                    <h2 class="playlist-name"></h2>
+                    <p class="playlist-creator"></p>
+                </div>
+            </div>
+            <button id="shuffleButton" class="shuffle-button">Shuffle</button>
+            <div class="songs-container">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
